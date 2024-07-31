@@ -1,12 +1,5 @@
 import { X } from "lucide-react-native"
-import {
-  View,
-  Text,
-  ModalProps,
-  ScrollView,
-  Modal as RNModal,
-  TouchableOpacity,
-} from "react-native"
+import { View, Text, ModalProps, ScrollView, Modal as RNModal, TouchableOpacity } from "react-native"
 import { BlurView } from "expo-blur"
 
 import { colors } from "@/styles/colors"
@@ -17,13 +10,7 @@ type Props = ModalProps & {
   onClose?: () => void
 }
 
-export function Modal({
-  title,
-  subtitle = "",
-  onClose,
-  children,
-  ...rest
-}: Props) {
+export function Modal({ title, subtitle = "", onClose, children, ...rest }: Props) {
   return (
     <RNModal transparent animationType="slide" {...rest}>
       <BlurView

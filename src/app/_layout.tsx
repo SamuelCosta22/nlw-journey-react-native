@@ -1,7 +1,7 @@
 import '@/styles/global.css'
 import { Slot } from 'expo-router'
 import { View, StatusBar } from 'react-native'
-
+import '@/utils/dayjsLocaleConfig'
 import { useFonts, Inter_500Medium, Inter_400Regular, Inter_600SemiBold  } from '@expo-google-fonts/inter'
 import { Loading } from '@/components/loading'
 
