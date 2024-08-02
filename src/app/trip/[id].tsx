@@ -126,7 +126,7 @@ export default function Trip(){
     }
 
     return(
-        <View className="flex-1 px-5 pt-16 mt-16">
+        <View className="flex-1 px-5 pt-16">
             <Input variant="tertiary">
                 <MapPin color={colors.zinc[400]} size={20} />
                 <Input.Field value={tripDetails.when} readOnly />
