@@ -240,9 +240,6 @@ export default function Index(){
             <Text className='text-zinc-500 font-regular text-center text-base'>
                 Ao planejar sua viagem pela plann.er você automaticamente concorda com nossos <Text className='text-zinc-300 underline'>termos de uso e políticas de privacidade</Text>.
             </Text>
-            <Button>
-                <Button.Title>Próxima tela</Button.Title>
-            </Button>
 
             <Modal title='Selecionar datas' subtitle='Selecione a data de ida e volta da viagem' visible={showModal === MODAL.CALENDAR} onClose={() => setShowModal(MODAL.NONE)}>
                 <View className='gap-4 mt-4'>

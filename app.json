@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "plann.er",
-    "slug": "plann.er",
+    "slug": "planner",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "planner",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#09090B"
-      }
+      },
+      "package": "com.samuelcosta.planner"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8bc94fbc-d3d8-4d4b-8fcd-292134c8b985"
+      }
     }
   }
 }
